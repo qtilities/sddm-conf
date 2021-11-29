@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>sddm_conf</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <!--project_license>TODO</project_license-->
+  <name>SDDM-Conf</name>
+  <summary>SDDM configuration tool</summary>
+
+  <content_rating type="oars-1.0" />
+  <url type="homepage">https://github.com/redtide/sddm-conf/</url>
+  <!--project_group></project_group-->
+  <developer_name>Andrea Zanellato</developer_name>
+  <update_contact>redtid3@gmail.com</update_contact>
+
+  <description>
+    <p>
+    SDDM-Conf is a graphical user interface (GUI) to manage the
+    SDDM session manager configuration file.
+    </p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>The main dialog</caption>
+      <image>https://github.com/redtide/sddm-conf/blob/master/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+
+  <launchable type="desktop-id">sddm_conf.desktop</launchable>
+  <provides>
+    <binary>sddm-conf</binary>
+  </provides>
+
+  <releases>
+    <!--release version="0.1.0" date="2022-MM-MM" /-->
+  </releases>
+</component>

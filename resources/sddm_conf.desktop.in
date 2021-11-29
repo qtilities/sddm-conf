@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Categories=Settings;Qt;
+Exec=sddm-conf
+Icon=preferences-system
+StartupNotify=false
+Terminal=false
+
+#TRANSLATIONS_DIR=resources/translations
