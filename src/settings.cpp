@@ -216,13 +216,29 @@ void Settings::save()
 
     settings.sync();
 
+    // NOTE: Later, we should show message dialogs, instead of debug messages.
+
     QFile settingsFile(tempFilePath);
+    // set the permissions
     if (!settingsFile.setPermissions(
             QFile::ReadOwner | QFile::WriteOwner | QFile::ReadGroup | QFile::ReadOther)) {
         qDebug() << "Error while setting configuration file permissions.";
         return;
     }
-    QProcess process;
-    process.start("pkexec", QStringList() << "cp" << tempFilePath << path_);
-    process.waitForFinished(-1);
+    // copy to the config file of SDDM
+    QProcess *process = new QProcess();
+    QObject::connect(process, QOverload<int, QProcess::ExitStatus>::of(&QProcess::finished),
+            [=] (int exitCode, QProcess::ExitStatus exitStatus) {
+        if (exitStatus != QProcess::NormalExit || exitCode != 0) {
+            QString error = process->readAllStandardError();
+            qDebug() << error;
+        }
+        process->deleteLater();
+    });
+    process->start("pkexec", QStringList() << "--disable-internal-agent" << "cp" << tempFilePath << path_);
+    if (!process->waitForStarted()) {
+        qDebug() << "\"pkexec\" is not found. Please install Polkit!";
+        process->deleteLater();
+    }
+    process->waitForFinished(-1);
 }
