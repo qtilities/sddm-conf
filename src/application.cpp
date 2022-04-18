@@ -6,6 +6,7 @@
 #include "src/maindialog.hpp"
 
 #include <QFile>
+#include <QDir>
 #include <QLocale>
 #include <QStandardPaths>
 #include <QTranslator>
@@ -36,8 +37,11 @@ Application::Application(int& argc, char** argv)
     // FIXME: The configuration file management is more complex,
     // this is just a temporary solution, see sddm.conf manual.
     QString path = QStringLiteral("/etc/sddm.conf");
-    if (!QFile::exists(path))
-        path = QStringLiteral("/etc/sddm.conf.d/sddm.conf");
+    if (!QFile::exists(path)) {
+        QDir dir(QStringLiteral("/etc/sddm.conf.d"));
+        if(dir.exists())
+            path = QStringLiteral("/etc/sddm.conf.d/sddm.conf");
+    }
 
     settings_.setPath(path);
     settings_.load();
