@@ -6,115 +6,115 @@
     <message>
         <location filename="../../src/maindialog.ui" line="40"/>
         <source>Autologin</source>
-        <translation type="unfinished">自動ログイン</translation>
+        <translation>自動ログイン</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="61"/>
         <source>Username for autologin session</source>
-        <translation type="unfinished">自動ログインセッションのためのユーザー名</translation>
+        <translation>自動ログインセッションのためのユーザー名</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="71"/>
         <source>Whether sddm should automatically log back into sessions when they exit</source>
-        <translation type="unfinished">セッションが終了した時 SDDM が自動的にセッションにログインし直すかどうか</translation>
+        <translation>セッションが終了した時 SDDM が自動的にセッションにログインし直すかどうか</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="84"/>
         <source>Name of session file for autologin session (if empty try last logged in)</source>
-        <translation type="unfinished">自動ログインセッションのためのセッションファイル名(空の場合は最後にログインしたファイルを試します)</translation>
+        <translation>自動ログインセッションのためのセッションファイル名(空の場合は最後にログインしたファイルを試します)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="108"/>
         <source>General</source>
-        <translation type="unfinished">全般</translation>
+        <translation>全般</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation type="unfinished">再起動のコマンド</translation>
+        <translation>再起動のコマンド</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
-        <translation type="unfinished">プロパティが none に設定されている場合、NumLock は変更されません。
+        <translation>プロパティが none に設定されている場合、NumLock は変更されません。
 注: 現在、自動ログインが有効になっている場合は無視されます。</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="172"/>
         <source>Initial NumLock state. Can be on, off or none.</source>
-        <translation type="unfinished">NumLock の初期状態。on, off, none のいずれかです。</translation>
+        <translation>NumLock の初期状態。on, off, none のいずれかです。</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="179"/>
         <source>Input method module</source>
-        <translation type="unfinished">入力メソッドのモジュール</translation>
+        <translation>入力メソッドのモジュール</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="186"/>
         <source>Halt command</source>
-        <translation type="unfinished">中止コマンド</translation>
+        <translation>中止コマンド</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
         <source>Theme</source>
-        <translation type="unfinished">テーマ</translation>
+        <translation>テーマ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="250"/>
         <source>Theme directory path</source>
-        <translation type="unfinished">テーマのディレクトリパス</translation>
+        <translation>テーマのディレクトリパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="257"/>
         <source>above which avatars are disabled
 unless explicitly enabled with EnableAvatars</source>
-        <translation type="unfinished">それを超えると、EnableAvatars で明示的に有効にされていない限りアバターは無効になります</translation>
+        <translation>それを超えると、EnableAvatars で明示的に有効にされていない限りアバターは無効になります</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="265"/>
         <source>Current theme name</source>
-        <translation type="unfinished">現在のテーマ名</translation>
+        <translation>現在のテーマ名</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
         <source>Cursor theme used in the greeter</source>
-        <translation type="unfinished">グリーターで使用するカーソルテーマ</translation>
+        <translation>グリーターで使用するカーソルテーマ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="279"/>
         <source>Global directory for user avatars</source>
-        <translation type="unfinished">ユーザーアバターのグローバルなディレクトリ</translation>
+        <translation>ユーザーアバターのグローバルなディレクトリ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="289"/>
         <source>Number of users to use as threshold</source>
-        <translation type="unfinished">しきい値として使用するユーザー数</translation>
+        <translation>しきい値として使用するユーザー数</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="302"/>
         <source>Preview</source>
-        <translation type="unfinished">プレビュー</translation>
+        <translation>プレビュー</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="309"/>
         <source>Enable display of custom user avatars</source>
-        <translation type="unfinished">ユーザーが設定するアバターの表示を有効にする</translation>
+        <translation>ユーザーが設定するアバターの表示を有効にする</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="316"/>
         <source>The files should be named &lt;username&gt;.face.icon</source>
-        <translation type="unfinished">ファイルは &lt;username&gt;.face.icon と名前を付けます</translation>
+        <translation>ファイルは &lt;username&gt;.face.icon と名前を付けます</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="324"/>
         <source>Users</source>
-        <translation type="unfinished">ユーザー</translation>
+        <translation>ユーザー</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="345"/>
         <source>Default $PATH for logged in users</source>
-        <translation type="unfinished">ログインするユーザーの $PATH の既定値</translation>
+        <translation>ログインするユーザーの $PATH の既定値</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
@@ -124,60 +124,60 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
         <source>Comma-separated list of users that should not be listed</source>
-        <translation type="unfinished">リストすべきでないユーザーのコンマ区切りのリスト</translation>
+        <translation>リストすべきでないユーザーのコンマ区切りのリスト</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="375"/>
         <source>Minimum user id for displayed users</source>
-        <translation type="unfinished">表示するユーザーの最小 UID</translation>
+        <translation>表示するユーザーの最小 UID</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="392"/>
         <source>Maximum user id for displayed users</source>
-        <translation type="unfinished">表示するユーザーの最大 UID</translation>
+        <translation>表示するユーザーの最大 UID</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="409"/>
         <source>Remember the session of the last successfully logged in user</source>
-        <translation type="unfinished">最後に正常にログインしたユーザーのセッションを記憶する</translation>
+        <translation>最後に正常にログインしたユーザーのセッションを記憶する</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="416"/>
         <source>Remember the last successfully logged in user</source>
-        <translation type="unfinished">最後に正常にログインしたユーザーを記憶する</translation>
+        <translation>最後に正常にログインしたユーザーを記憶する</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="424"/>
         <source>Wayland</source>
-        <translation type="unfinished">Wayland</translation>
+        <translation>Wayland</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="445"/>
         <location filename="../../src/maindialog.ui" line="565"/>
         <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation type="unfinished">Qt の自動 HiDPI スケールを有効にする</translation>
+        <translation>Qt の自動 HiDPI スケールを有効にする</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="452"/>
         <location filename="../../src/maindialog.ui" line="676"/>
         <source>Path to a script to execute when starting the desktop session</source>
-        <translation type="unfinished">デスクトップセッションの起動時に実行するスクリプトへのパス</translation>
+        <translation>デスクトップセッションの起動時に実行するスクリプトへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="470"/>
         <location filename="../../src/maindialog.ui" line="740"/>
         <source>Path to the user session log file</source>
-        <translation type="unfinished">ユーザーセッションのログファイルへのパス</translation>
+        <translation>ユーザーセッションのログファイルへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="488"/>
         <source>Directory containing available Wayland sessions</source>
-        <translation type="unfinished">使用可能な Wayland セッションを含むディレクトリ</translation>
+        <translation>使用可能な Wayland セッションを含むディレクトリ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="520"/>
         <source>X11</source>
-        <translation type="unfinished">X11</translation>
+        <translation>X11</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
@@ -187,47 +187,47 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
         <source>Path to X server binary</source>
-        <translation type="unfinished">X サーバーのバイナリへのパス</translation>
+        <translation>X サーバーのバイナリへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="683"/>
         <source>Arguments passed to the X server invocation</source>
-        <translation type="unfinished">X サーバー呼び出しに渡される引数</translation>
+        <translation>X サーバー呼び出しに渡される引数</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="690"/>
         <source>Directory containing available X sessions</source>
-        <translation type="unfinished">使用可能な X セッションを含むディレクトリ</translation>
+        <translation>使用可能な X セッションを含むディレクトリ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="697"/>
         <source>Path to a script to execute when starting the display server</source>
-        <translation type="unfinished">ディスプレイサーバーの起動時に実行するスクリプトへのパス</translation>
+        <translation>ディスプレイサーバーの起動時に実行するスクリプトへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="704"/>
         <source>Path to a script to execute when stopping the display server</source>
-        <translation type="unfinished">ディスプレイサーバーの停止時に実行するスクリプトへのパス</translation>
+        <translation>ディスプレイサーバーの停止時に実行するスクリプトへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="714"/>
         <source>Path to xauth binary</source>
-        <translation type="unfinished">xauth バイナリへのパス</translation>
+        <translation>xauth バイナリへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="721"/>
         <source>Path to Xephyr binary</source>
-        <translation type="unfinished">Xephyr バイナリへのパス</translation>
+        <translation>Xephyr バイナリへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="747"/>
         <source>Path to the Xauthority file</source>
-        <translation type="unfinished">Xauthority ファイルへのパス</translation>
+        <translation>Xauthority ファイルへのパス</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="759"/>
         <source>File</source>
-        <translation type="unfinished">ファイル</translation>
+        <translation>ファイル</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
@@ -237,7 +237,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
         <source>SDDM Configuration Editor</source>
-        <translation type="unfinished">SDDM 設定エディター</translation>
+        <translation>SDDM 設定エディター</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="61"/>
