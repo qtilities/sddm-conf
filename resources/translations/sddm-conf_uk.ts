@@ -31,14 +31,14 @@
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation>Команда для перезавантаження</translation>
+        <translation>Команда для перезапуску</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
         <translation>Якщо встановлено значення none, NumLock не змінюється
-ПРИМІТКА: ігнорується, якщо ввімкнено автоматичний вхід.</translation>
+ПРИМІТКА: нехтується, якщо ввімкнено автоматичний вхід.</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="172"/>
@@ -80,7 +80,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
         <source>Cursor theme used in the greeter</source>
-        <translation>Тема курсору для використання у greeter</translation>
+        <translation>Тема курсора для використання у greeter</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="279"/>
@@ -120,65 +120,65 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Розділений комами перелік оболонок</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
         <source>Comma-separated list of users that should not be listed</source>
-        <translation>Перелік користувачів, яких не має бути в переліку, розділений комами</translation>
+        <translation>Розділений комами перелік користувачів, яких не має бути в переліку</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="375"/>
         <source>Minimum user id for displayed users</source>
-        <translation>Мінімально можливий UID для показаних користувачів</translation>
+        <translation type="unfinished">Мінімально можливий UID для показаних користувачів</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="392"/>
         <source>Maximum user id for displayed users</source>
-        <translation>Максимально можливий UID для показаних користувачів</translation>
+        <translation type="unfinished">Максимально можливий UID для показаних користувачів</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="409"/>
         <source>Remember the session of the last successfully logged in user</source>
-        <translation>Пам’ятати сеанс останнього користувача, який успішно зайшов</translation>
+        <translation type="unfinished">Пам’ятати сеанс останнього користувача, який успішно зайшов</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="416"/>
         <source>Remember the last successfully logged in user</source>
-        <translation>Пам’ятати останнього користувача, який успішно зайшов у сеанс</translation>
+        <translation type="unfinished">Пам’ятати останнього користувача, який успішно зайшов у сеанс</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="424"/>
         <source>Wayland</source>
-        <translation>Wayland</translation>
+        <translation type="unfinished">Wayland</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="445"/>
         <location filename="../../src/maindialog.ui" line="565"/>
         <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation>Увімкнути автоматичне масштабування Qt з високою роздільною здатністю</translation>
+        <translation type="unfinished">Увімкнути автоматичне масштабування Qt з високою роздільною здатністю</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="452"/>
         <location filename="../../src/maindialog.ui" line="676"/>
         <source>Path to a script to execute when starting the desktop session</source>
-        <translation>Шлях до сценарію для виконання під час запуску стільниці</translation>
+        <translation type="unfinished">Шлях до сценарію для виконання під час запуску стільниці</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="470"/>
         <location filename="../../src/maindialog.ui" line="740"/>
         <source>Path to the user session log file</source>
-        <translation>Шлях до файлу журналу сеансу користувача</translation>
+        <translation type="unfinished">Шлях до файлу журналу сеансу користувача</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="488"/>
         <source>Directory containing available Wayland sessions</source>
-        <translation>Тека, що містить доступні сеанси Wayland</translation>
+        <translation type="unfinished">Тека, що містить доступні сеанси Wayland</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="520"/>
         <source>X11</source>
-        <translation>X11</translation>
+        <translation type="unfinished">X11</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
@@ -188,47 +188,47 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
         <source>Path to X server binary</source>
-        <translation>Шлях до виконуваного файлу X сервера</translation>
+        <translation type="unfinished">Шлях до виконуваного файлу X сервера</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="683"/>
         <source>Arguments passed to the X server invocation</source>
-        <translation>Аргументи, передані для виклику X сервера</translation>
+        <translation type="unfinished">Аргументи, передані для виклику X сервера</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="690"/>
         <source>Directory containing available X sessions</source>
-        <translation>Каталог з файлами доступних X-сеансів</translation>
+        <translation type="unfinished">Каталог з файлами доступних X-сеансів</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="697"/>
         <source>Path to a script to execute when starting the display server</source>
-        <translation>Шлях до сценарію для виконання під час запуску сервера відображення</translation>
+        <translation type="unfinished">Шлях до сценарію для виконання під час запуску сервера відображення</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="704"/>
         <source>Path to a script to execute when stopping the display server</source>
-        <translation>Шлях до сценарію для виконання під час зупинки сервера відображення</translation>
+        <translation type="unfinished">Шлях до сценарію для виконання під час зупинки сервера відображення</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="714"/>
         <source>Path to xauth binary</source>
-        <translation>Шлях до виконуваного файлу xauth</translation>
+        <translation type="unfinished">Шлях до виконуваного файлу xauth</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="721"/>
         <source>Path to Xephyr binary</source>
-        <translation>Шлях до виконуваного файлу Xephyr</translation>
+        <translation type="unfinished">Шлях до виконуваного файлу Xephyr</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="747"/>
         <source>Path to the Xauthority file</source>
-        <translation>Шлях до файлу Xauthority</translation>
+        <translation type="unfinished">Шлях до файлу Xauthority</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="759"/>
         <source>File</source>
-        <translation>Файл</translation>
+        <translation type="unfinished">Файл</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
@@ -238,7 +238,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
         <source>SDDM Configuration Editor</source>
-        <translation>Редактор налаштувань SDDM</translation>
+        <translation type="unfinished">Редактор налаштувань SDDM</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="61"/>
