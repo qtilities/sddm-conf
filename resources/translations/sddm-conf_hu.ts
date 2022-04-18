@@ -6,17 +6,17 @@
     <message>
         <location filename="../../src/maindialog.ui" line="40"/>
         <source>Autologin</source>
-        <translation type="unfinished">Automatikus bejelentkezés</translation>
+        <translation>Automatikus bejelentkezés</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="61"/>
         <source>Username for autologin session</source>
-        <translation type="unfinished">Felhasználónév az automatikus munkamenethez</translation>
+        <translation>Felhasználónév az automatikus munkamenethez</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="71"/>
         <source>Whether sddm should automatically log back into sessions when they exit</source>
-        <translation type="unfinished">Visszajelentkezzen-e az sddm automatikusan a munkamenetekbe, amikor kilépnek</translation>
+        <translation>Visszajelentkezzen-e az sddm automatikusan a munkamenetekbe, amikor kilépnek</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="84"/>
@@ -26,12 +26,12 @@
     <message>
         <location filename="../../src/maindialog.ui" line="108"/>
         <source>General</source>
-        <translation type="unfinished">Általános</translation>
+        <translation>Általános</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation type="unfinished">Újraindítás parancs</translation>
+        <translation>Újraindítás parancs</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
@@ -57,7 +57,7 @@ NOTE: Currently ignored if autologin is enabled.</source>
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
         <source>Theme</source>
-        <translation type="unfinished">Téma</translation>
+        <translation>Téma</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="250"/>
@@ -73,7 +73,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="265"/>
         <source>Current theme name</source>
-        <translation type="unfinished">Jelenlegi témanév</translation>
+        <translation>Jelenlegi témanév</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
@@ -154,7 +154,7 @@ unless explicitly enabled with EnableAvatars</source>
         <location filename="../../src/maindialog.ui" line="445"/>
         <location filename="../../src/maindialog.ui" line="565"/>
         <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation type="unfinished">A Qt automatikus magas-DPI felbontásának engedélyezése</translation>
+        <translation>A Qt automatikus magas-DPI felbontásának engedélyezése</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="452"/>
