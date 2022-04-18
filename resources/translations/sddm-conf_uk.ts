@@ -31,14 +31,14 @@
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation>Команда для перезавантаження</translation>
+        <translation>Команда для перезапуску</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
         <translation>Якщо встановлено значення none, NumLock не змінюється
-ПРИМІТКА: ігнорується, якщо ввімкнено автоматичний вхід.</translation>
+ПРИМІТКА: нехтується, якщо ввімкнено автоматичний вхід.</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="172"/>
@@ -80,7 +80,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
         <source>Cursor theme used in the greeter</source>
-        <translation>Тема курсору для використання у greeter</translation>
+        <translation>Тема курсора для використання у greeter</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="279"/>
@@ -120,12 +120,12 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Розділений комами перелік оболонок</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
         <source>Comma-separated list of users that should not be listed</source>
-        <translation>Перелік користувачів, яких не має бути в переліку, розділений комами</translation>
+        <translation>Розділений комами перелік користувачів, яких не має бути в переліку</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="375"/>
