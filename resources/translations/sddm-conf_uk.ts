@@ -6,126 +6,126 @@
     <message>
         <location filename="../../src/maindialog.ui" line="40"/>
         <source>Autologin</source>
-        <translation type="unfinished">Автоматичний вхід</translation>
+        <translation>Автоматичний вхід</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="61"/>
         <source>Username for autologin session</source>
-        <translation type="unfinished">Ім&apos;я користувача для автоматичного входу в сеанс</translation>
+        <translation>Ім&apos;я користувача для автоматичного входу в сеанс</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="71"/>
         <source>Whether sddm should automatically log back into sessions when they exit</source>
-        <translation type="unfinished">Чи повинен sddm автоматично входити в сеанси після виходу з них</translation>
+        <translation>Чи повинен sddm автоматично входити в сеанси після виходу з них</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="84"/>
         <source>Name of session file for autologin session (if empty try last logged in)</source>
-        <translation type="unfinished">Назва файлу сеансу для автоматичного входу (якщо не вказано, спробувати останній вхід)</translation>
+        <translation>Назва файлу сеансу для автоматичного входу (якщо не вказано, спробувати останній вхід)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="108"/>
         <source>General</source>
-        <translation type="unfinished">Загальні</translation>
+        <translation>Загальні</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation type="unfinished">Команда для перезавантаження</translation>
+        <translation>Команда для перезапуску</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
-        <translation type="unfinished">Якщо встановлено значення none, NumLock не змінюється
-ПРИМІТКА: ігнорується, якщо ввімкнено автоматичний вхід.</translation>
+        <translation>Якщо встановлено значення none, NumLock не змінюється
+ПРИМІТКА: нехтується, якщо ввімкнено автоматичний вхід.</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="172"/>
         <source>Initial NumLock state. Can be on, off or none.</source>
-        <translation type="unfinished">Початковий стан NumLock. Може бути on, off або none.</translation>
+        <translation>Початковий стан NumLock. Може бути on, off або none.</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="179"/>
         <source>Input method module</source>
-        <translation type="unfinished">Модуль способу введення</translation>
+        <translation>Модуль способу введення</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="186"/>
         <source>Halt command</source>
-        <translation type="unfinished">Припинити команду</translation>
+        <translation>Припинити команду</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
         <source>Theme</source>
-        <translation type="unfinished">Тема</translation>
+        <translation>Тема</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="250"/>
         <source>Theme directory path</source>
-        <translation type="unfinished">Шлях до теки тем</translation>
+        <translation>Шлях до теки тем</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="257"/>
         <source>above which avatars are disabled
 unless explicitly enabled with EnableAvatars</source>
-        <translation type="unfinished">які користувацькі зображення буде вимкнено,
+        <translation>які користувацькі зображення буде вимкнено,
 якщо явно не ввімкнено опцією EnableAvatars</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="265"/>
         <source>Current theme name</source>
-        <translation type="unfinished">Назва поточної теми</translation>
+        <translation>Назва поточної теми</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
         <source>Cursor theme used in the greeter</source>
-        <translation type="unfinished">Тема курсору для використання у greeter</translation>
+        <translation>Тема курсора для використання у greeter</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="279"/>
         <source>Global directory for user avatars</source>
-        <translation type="unfinished">Загальна тека для користувацьких зображень</translation>
+        <translation>Загальна тека для користувацьких зображень</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="289"/>
         <source>Number of users to use as threshold</source>
-        <translation type="unfinished">Обмеження кількості користувачів</translation>
+        <translation>Обмеження кількості користувачів</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="302"/>
         <source>Preview</source>
-        <translation type="unfinished">Попередній перегляд</translation>
+        <translation>Попередній перегляд</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="309"/>
         <source>Enable display of custom user avatars</source>
-        <translation type="unfinished">Увімкнути показ користувацьких зображень</translation>
+        <translation>Увімкнути показ користувацьких зображень</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="316"/>
         <source>The files should be named &lt;username&gt;.face.icon</source>
-        <translation type="unfinished">Файли повинні мати назву &lt;ім&apos;я_користувача&gt;.face.icon</translation>
+        <translation>Файли повинні мати назву &lt;ім&apos;я_користувача&gt;.face.icon</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="324"/>
         <source>Users</source>
-        <translation type="unfinished">Користувачі</translation>
+        <translation>Користувачі</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="345"/>
         <source>Default $PATH for logged in users</source>
-        <translation type="unfinished">Типовий $PATH для користувачів, які увійшли</translation>
+        <translation>Типовий $PATH для користувачів, які увійшли</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Розділений комами перелік оболонок</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
         <source>Comma-separated list of users that should not be listed</source>
-        <translation type="unfinished">Перелік користувачів, яких не має бути в переліку, розділений комами</translation>
+        <translation>Розділений комами перелік користувачів, яких не має бути в переліку</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="375"/>
