@@ -71,7 +71,11 @@ set_property(SOURCE ${UI_SOURCE} PROPERTY SKIP_AUTOMOC ON)
     )
 #endif()
 
-target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE SDDM_CONF_VERSION="${CMAKE_PROJECT_VERSION}")
+target_compile_definitions(${CMAKE_PROJECT_NAME}
+    PRIVATE
+        SDDM_CONF_VERSION="${CMAKE_PROJECT_VERSION}"
+        SDDM_DATA_DIR="${CMAKE_INSTALL_PREFIX}/share/${CMAKE_PROJECT_NAME}"
+)
 
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
