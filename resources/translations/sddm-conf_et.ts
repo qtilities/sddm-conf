@@ -120,7 +120,7 @@ välja arvatud olukord, kui EnableAvatars nad üheselt kasutusele võtab</transl
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Komadega eraldatud kestade loend</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
@@ -183,7 +183,7 @@ välja arvatud olukord, kui EnableAvatars nad üheselt kasutusele võtab</transl
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
         <source>The lowest virtual terminal number that will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>Väiksem virtuaalse terminali number, mida soovid kasutaada</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
@@ -233,7 +233,7 @@ välja arvatud olukord, kui EnableAvatars nad üheselt kasutusele võtab</transl
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Rakenduse teave</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
@@ -243,28 +243,29 @@ välja arvatud olukord, kui EnableAvatars nad üheselt kasutusele võtab</transl
     <message>
         <location filename="../../src/maindialog.cpp" line="61"/>
         <source>SDDM Conf v</source>
-        <translation type="unfinished"></translation>
+        <translation>SDDM seadistused v</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="62"/>
         <source>Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Autoriõigused (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="72"/>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulge %1 eelvaade</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="87"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali fail</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="94"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Vali kaust</translation>
     </message>
 </context>
 </TS>
