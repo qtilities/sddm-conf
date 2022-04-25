@@ -120,7 +120,7 @@ a menos que explicitamente definidos em &apos;EnableAvatars&apos;</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de shells separadas por vírgulas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
@@ -183,7 +183,7 @@ a menos que explicitamente definidos em &apos;EnableAvatars&apos;</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
         <source>The lowest virtual terminal number that will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>O número de terminal virtual mais baixo que será usado</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
@@ -233,38 +233,39 @@ a menos que explicitamente definidos em &apos;EnableAvatars&apos;</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
         <source>SDDM Configuration Editor</source>
-        <translation>Editor de configurações de SDDM</translation>
+        <translation>Editor de configuração do SDDM</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="61"/>
         <source>SDDM Conf v</source>
-        <translation type="unfinished"></translation>
+        <translation>SDDM Conf v</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="62"/>
         <source>Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Direitos de autor (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="72"/>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Fechar %1 pré-visualização</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="87"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Escolha um ficheiro</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="94"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Escolha um diretório</translation>
     </message>
 </context>
 </TS>
