@@ -37,8 +37,8 @@
         <location filename="../../src/maindialog.ui" line="142"/>
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
-        <translation>Se a propriedade estiver definida para &apos;none&apos;, o estado não será alterado.
-NOTA: esta propriedade é ignorada se a sessão iniciar autenticamente.</translation>
+        <translation>Se a propriedade estiver definida para &apos;none&apos;, o estado NumLock&apos; não será alterado.
+NOTA: esta propriedade é ignorada se a sessão for iniciada automaticamente.</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="172"/>

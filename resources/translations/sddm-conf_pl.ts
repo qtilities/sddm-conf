@@ -26,7 +26,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="108"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogólne</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
