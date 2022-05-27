@@ -120,7 +120,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>רשימת מעטפות, מופרדת בפסיקים</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
@@ -233,7 +233,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>על אודות</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
@@ -259,12 +259,12 @@ Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
     <message>
         <location filename="../../src/maindialog.cpp" line="87"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>נא לבחור קובץ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="94"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>נא לבחור תיקייה</translation>
     </message>
 </context>
 </TS>
