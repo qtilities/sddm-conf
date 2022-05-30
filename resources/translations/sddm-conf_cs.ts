@@ -120,7 +120,7 @@ pokud nejsou výslovně zapnutí pomocí EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Čárkami oddělovaný seznam shellů</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
@@ -183,7 +183,7 @@ pokud nejsou výslovně zapnutí pomocí EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
         <source>The lowest virtual terminal number that will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>Nejnižší číslo virtuálního terminálu, který bude použit</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
@@ -233,7 +233,7 @@ pokud nejsou výslovně zapnutí pomocí EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>O aplikaci</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
@@ -243,28 +243,29 @@ pokud nejsou výslovně zapnutí pomocí EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.cpp" line="61"/>
         <source>SDDM Conf v</source>
-        <translation type="unfinished"></translation>
+        <translation>SSDM nast. v</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="62"/>
         <source>Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Autorská práva © 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="72"/>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Zavřít náhled %1</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="87"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolte soubor</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="94"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolte složku</translation>
     </message>
 </context>
 </TS>
