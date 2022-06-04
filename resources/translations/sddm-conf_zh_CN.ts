@@ -150,7 +150,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="424"/>
         <source>Wayland</source>
-        <translation>Wayland 显示服务器</translation>
+        <translation>Wayland</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="445"/>
