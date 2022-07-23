@@ -26,7 +26,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="108"/>
         <source>General</source>
-        <translation>Bendra</translation>
+        <translation>Bendri</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
@@ -121,7 +121,7 @@ nebent aiškiai įjungta naudojant EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Kableliais atskirtų apvalkalų sąrašas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
