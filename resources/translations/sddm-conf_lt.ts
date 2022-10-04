@@ -234,7 +234,7 @@ nebent aiškiai įjungta naudojant EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Apie</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="23"/>
@@ -250,22 +250,23 @@ nebent aiškiai įjungta naudojant EnableAvatars</translation>
         <location filename="../../src/maindialog.cpp" line="62"/>
         <source>Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Autorių teisės (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="72"/>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Užverti %1 peržiūrą</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="87"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasirinkti failą</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="94"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasirinkti katalogą</translation>
     </message>
 </context>
 </TS>
