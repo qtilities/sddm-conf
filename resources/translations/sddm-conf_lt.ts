@@ -184,7 +184,7 @@ nebent aiškiai įjungta naudojant EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
         <source>The lowest virtual terminal number that will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>Mažiausias virtualaus terminalo numeris, kuris bus naudojamas</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
@@ -244,7 +244,7 @@ nebent aiškiai įjungta naudojant EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.cpp" line="61"/>
         <source>SDDM Conf v</source>
-        <translation type="unfinished"></translation>
+        <translation>SDDM Conf v</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="62"/>
