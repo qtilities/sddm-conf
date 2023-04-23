@@ -21,7 +21,7 @@
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Yleiset</translation>
     </message>
     <message>
         <source>Reboot command</source>
@@ -31,7 +31,7 @@
         <source>If property is set to none, numlock won&apos;t be changed
 NOTE: Currently ignored if autologin is enabled.</source>
         <translation>Jos ei valittu, numlockkia ei muuteta
-HUOM: Ei vaikutusta jos automaattikirjautuminen on käytössä</translation>
+HUOM: Ei vaikutusta jos automaattikirjautuminen on käytössä.</translation>
     </message>
     <message>
         <source>Initial NumLock state. Can be on, off or none.</source>
@@ -125,35 +125,35 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
     </message>
     <message>
         <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä Qt:een automaattista korkean DPI-tilan skaalausta</translation>
     </message>
     <message>
         <source>Path to a script to execute when starting the desktop session</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku työpöytäistunnon alussa suoritettavaan komentosarjaan</translation>
     </message>
     <message>
         <source>Path to the user session log file</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku käyttäjäistunnon lokitiedostoon</translation>
     </message>
     <message>
         <source>Directory containing available Wayland sessions</source>
-        <translation type="unfinished"></translation>
+        <translation>Saatavilla olevien Wayland-istuntojen hakemisto</translation>
     </message>
     <message>
         <source>X11</source>
-        <translation type="unfinished"></translation>
+        <translation>X11</translation>
     </message>
     <message>
         <source>The lowest virtual terminal number that will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>Pienin sallittu virtuaalipäätteen numero</translation>
     </message>
     <message>
         <source>Path to X server binary</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku X-palvelinohjelmaan</translation>
     </message>
     <message>
         <source>Arguments passed to the X server invocation</source>
-        <translation type="unfinished"></translation>
+        <translation>X-palvelimelle annettavat parametrit</translation>
     </message>
     <message>
         <source>Directory containing available X sessions</source>
@@ -189,7 +189,7 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
     </message>
     <message>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Tietoja</translation>
     </message>
     <message>
         <source>SDDM Conf v</source>
