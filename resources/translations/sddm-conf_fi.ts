@@ -157,35 +157,35 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
     </message>
     <message>
         <source>Directory containing available X sessions</source>
-        <translation type="unfinished"></translation>
+        <translation>Saatavilla olevien X-istuntojen hakemisto</translation>
     </message>
     <message>
         <source>Path to a script to execute when starting the display server</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku näyttöpalvelimen käynnistyksessä suoritettavan komentosarjaan</translation>
     </message>
     <message>
         <source>Path to a script to execute when stopping the display server</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku näyttöpalvelinta pysäytettäessä suoritettavaan komentosarjaan</translation>
     </message>
     <message>
         <source>Path to xauth binary</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku xauth-ohjelmaan</translation>
     </message>
     <message>
         <source>Path to Xephyr binary</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku Xephyr-ohjelmaan</translation>
     </message>
     <message>
         <source>Path to the Xauthority file</source>
-        <translation type="unfinished"></translation>
+        <translation>Polku Xauthority-tiedostoon</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiedosto</translation>
     </message>
     <message>
         <source>SDDM Configuration Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>SDDM:n asetusohjelma</translation>
     </message>
     <message>
         <source>About</source>
@@ -193,24 +193,25 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
     </message>
     <message>
         <source>SDDM Conf v</source>
-        <translation type="unfinished"></translation>
+        <translation>SDDM:n asetukset v</translation>
     </message>
     <message>
         <source>Copyright (C) 2021
 Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Copyright (C) 2021
+Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
     </message>
     <message>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse tiedosto</translation>
     </message>
     <message>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Valitse hakemisto</translation>
     </message>
     <message>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Sulje esikatselu &quot;%1&quot;</translation>
     </message>
 </context>
 </TS>
