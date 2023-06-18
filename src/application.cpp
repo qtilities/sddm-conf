@@ -1,5 +1,5 @@
 /*
-    Copyright (c) 2022 Andrea Zanellato
+    Copyright (c) 2022-2023 Andrea Zanellato
     SPDX-License-Identifier: MIT
 */
 #include "application.hpp"
