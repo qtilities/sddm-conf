@@ -1,9 +1,4 @@
-*build*/
-*.bak
-*.diff
-*.patch
-*.json
-*.qm
+build*/
 *.user
+compile_commands.json
 resources/about.md
-
