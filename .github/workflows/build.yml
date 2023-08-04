@@ -31,6 +31,12 @@ jobs:
       with:
         submodules: recursive
 
+    - name: Checkout Qtilitools
+      uses: actions/checkout@v3
+      with:
+        repository: qtilities/qtilitools
+        path: qtilitools
+
     - name: Update Packages
       run: sudo apt-get update
 
@@ -43,6 +49,17 @@ jobs:
           sddm
         )
         sudo apt-get install ${packages[@]}
+
+    - name: Build and install Qtilitools
+      working-directory: ${{ github.workspace }}/qtilitools
+      run: |
+        options=(
+          -D CMAKE_INSTALL_PREFIX="/usr"
+          -D CMAKE_BUILD_TYPE=${{ env.build_type }}
+          -B build
+        )
+        cmake ${options[@]}
+        sudo cmake --install build
 
     - name: Configure
       run: |
