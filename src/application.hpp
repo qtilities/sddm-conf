@@ -7,15 +7,24 @@
 #include "settings.hpp"
 
 #include <QApplication>
+#include <QTranslator>
 
-class Application : public QApplication {
+class MainDialog;
+class Application : public QApplication
+{
     Q_OBJECT
 
 public:
-    Application(int&, char**);
+    Application(int argc, char *argv[]);
 
-    Settings& settings() { return settings_; }
+    Settings &settings() { return settings_; }
+
+    void initLocale();
+    void initUi();
+    void about();
 
 private:
+    MainDialog *mainDialog_;
     Settings settings_;
+    QTranslator qtTranslator_, translator_;
 };

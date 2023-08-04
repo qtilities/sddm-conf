@@ -234,70 +234,67 @@ unless explicitly enabled with EnableAvatars</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="23"/>
+        <location filename="../../src/maindialog.cpp" line="31"/>
         <source>SDDM Configuration Editor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="61"/>
-        <source>SDDM Conf v</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../src/maindialog.cpp" line="62"/>
-        <source>Copyright (C) 2021
-Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../src/maindialog.cpp" line="72"/>
+        <location filename="../../src/maindialog.cpp" line="74"/>
         <source>Close %1 preview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="87"/>
+        <location filename="../../src/maindialog.cpp" line="89"/>
         <source>Choose a file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="94"/>
+        <location filename="../../src/maindialog.cpp" line="96"/>
         <source>Choose a directory</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
-    <name>config-strings</name>
+    <name>Qtilities::DialogAbout</name>
     <message>
-        <source>Autologin</source>
-        <translation type="vanished">Automatikus bejelentkezés</translation>
+        <location filename="../../src/dialogabout.ui" line="27"/>
+        <source>Information</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Whether sddm should automatically log back into sessions when they exit</source>
-        <translation type="obsolete">Visszajelentkezzen-e az sddm automatikusan a munkamenetekbe, amikor kilépnek</translation>
+        <location filename="../../src/dialogabout.ui" line="43"/>
+        <source>qrc:/about.html</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Username for autologin session</source>
-        <translation type="obsolete">Felhasználónév az automatikus munkamenethez</translation>
+        <location filename="../../src/dialogabout.ui" line="62"/>
+        <source>Thanks</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>General</source>
-        <translation type="vanished">Általános</translation>
+        <location filename="../../src/dialogabout.ui" line="81"/>
+        <source>qrc:/thanks.html</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation type="obsolete">A Qt automatikus magas-DPI felbontásának engedélyezése</translation>
+        <location filename="../../src/dialogabout.ui" line="100"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Reboot command</source>
-        <translation type="vanished">Újraindítás parancs</translation>
+        <location filename="../../src/dialogabout.ui" line="116"/>
+        <source>qrc:/license.html</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Theme</source>
-        <translation type="vanished">Téma</translation>
+        <location filename="../../src/dialogabout.cpp" line="55"/>
+        <source>Author</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Current theme name</source>
-        <translation type="vanished">Jelenlegi témanév</translation>
+        <location filename="../../src/dialogabout.cpp" line="60"/>
+        <source>About</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

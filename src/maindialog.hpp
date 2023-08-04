@@ -12,18 +12,20 @@ class QPushButton;
 namespace Ui {
 class MainDialog;
 }
-class MainDialog : public QDialog {
+class MainDialog : public QDialog
+{
     Q_OBJECT
 
 public:
-    explicit MainDialog(QWidget* parent = nullptr);
+    explicit MainDialog(QWidget *parent = nullptr);
     ~MainDialog();
 
 private:
+    void about();
     void loadSettings();
     void loadFile();
 
-    Ui::MainDialog* ui;
-    QProcess* previewProcess_;
-    QPushButton* previewButton_;
+    Ui::MainDialog *ui;
+    QProcess *previewProcess_;
+    QPushButton *previewButton_;
 };

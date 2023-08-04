@@ -1,0 +1,58 @@
+name: Build
+on:
+  push:
+    branches:
+    - '*'
+    tags:
+    - '[0-9]*'
+  pull_request:
+    branches:
+    - '*'
+defaults:
+  run:
+    shell: bash
+env:
+  build_type: Release
+jobs:
+  linux:
+    name: Linux
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+        - { name: "GCC", cc: gcc, cxx: g++ }
+        - { name: "clang", cc: clang, cxx: clang++ }
+    env:
+      cc:  ${{ matrix.config.cc }}
+      cxx: ${{ matrix.config.cxx }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        submodules: recursive
+
+    - name: Update Packages
+      run: sudo apt-get update
+
+    - name: Install Dependencies
+      run: |
+        packages=(
+          qtbase5-dev
+          qttools5-dev
+          pkexec
+          sddm
+        )
+        sudo apt-get install ${packages[@]}
+
+    - name: Configure
+      run: |
+        options=(
+          -D CMAKE_INSTALL_PREFIX="/usr"
+          -D CMAKE_BUILD_TYPE=${{ env.build_type }}
+          -B build
+        )
+        cmake ${options[@]}
+
+    - name: Build
+      run: cmake --build build --config "$build_type"
+

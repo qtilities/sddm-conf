@@ -236,36 +236,67 @@ pokud nejsou výslovně zapnutí pomocí EnableAvatars</translation>
         <translation>O aplikaci</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="23"/>
+        <location filename="../../src/maindialog.cpp" line="31"/>
         <source>SDDM Configuration Editor</source>
         <translation>Editor nastavení pro SDDM</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="61"/>
-        <source>SDDM Conf v</source>
-        <translation>SSDM nast. v</translation>
-    </message>
-    <message>
-        <location filename="../../src/maindialog.cpp" line="62"/>
-        <source>Copyright (C) 2021
-Andrea Zanellato &lt;redtid3@gmail.com&gt;</source>
-        <translation>Autorská práva © 2021
-Andrea Zanellato &lt;redtid3@gmail.com&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/maindialog.cpp" line="72"/>
+        <location filename="../../src/maindialog.cpp" line="74"/>
         <source>Close %1 preview</source>
         <translation>Zavřít náhled %1</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="87"/>
+        <location filename="../../src/maindialog.cpp" line="89"/>
         <source>Choose a file</source>
         <translation>Zvolte soubor</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="94"/>
+        <location filename="../../src/maindialog.cpp" line="96"/>
         <source>Choose a directory</source>
         <translation>Zvolte složku</translation>
+    </message>
+</context>
+<context>
+    <name>Qtilities::DialogAbout</name>
+    <message>
+        <location filename="../../src/dialogabout.ui" line="27"/>
+        <source>Information</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.ui" line="43"/>
+        <source>qrc:/about.html</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.ui" line="62"/>
+        <source>Thanks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.ui" line="81"/>
+        <source>qrc:/thanks.html</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.ui" line="100"/>
+        <source>License</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.ui" line="116"/>
+        <source>qrc:/license.html</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.cpp" line="55"/>
+        <source>Author</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/dialogabout.cpp" line="60"/>
+        <source>About</source>
+        <translation type="unfinished">O aplikaci</translation>
     </message>
 </context>
 </TS>

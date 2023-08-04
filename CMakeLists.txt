@@ -1,112 +1,101 @@
-cmake_minimum_required(VERSION 3.5)
-project(sddm-conf VERSION 0.1.0 LANGUAGES CXX)
+cmake_minimum_required(VERSION 3.15)
+project(SDDM-Conf
+    VERSION 0.2.0
+    LANGUAGES CXX
+)
+option(PROJECT_TRANSLATIONS_UPDATE "Update source translations [default: OFF]" OFF)
 
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOMOC ON)
-
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-option(UPDATE_TRANSLATIONS "Update source translations" OFF)
-
-# TODO: It seems that Qt6 is not (yet) supported in LXQt translations
-
-#find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
-#find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
-find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
-include(GNUInstallDirs REQUIRED)
-
-set(APPSTREAM_ID "sddm_conf")
-set(DESKTOP_FILE_IN
-    resources/${APPSTREAM_ID}.desktop.in
-)
-set(UI_FILES
-    src/maindialog.ui
-)
-set(SOURCE_FILES
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+#===============================================================================
+# Qt
+#===============================================================================
+set(PROJECT_QT_VERSION 5 CACHE STRING "Qt version to use [default: 5]")
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+find_package(QT NAMES Qt${PROJECT_QT_VERSION})
+find_package(Qt${QT_VERSION_MAJOR} REQUIRED LinguistTools Widgets)
+find_package(Qtilitools REQUIRED)
+#===============================================================================
+# Project files
+#===============================================================================
+set(PROJECT_SOURCES
     src/application.hpp
     src/application.cpp
+    src/dialogabout.hpp
+    src/dialogabout.cpp
     src/maindialog.hpp
     src/maindialog.cpp
     src/settings.hpp
     src/settings.cpp
-    ${UI_FILES}
 )
+set(PROJECT_UI_FILES
+    src/dialogabout.ui
+    src/maindialog.ui
+)
+set(PROJECT_OTHER_FILES
+    .github/workflows/build.yml
+    .clang-format
+    .editorconfig
+    .gitattributes
+    .gitignore
+    README.md
+)
+source_group("Other Files" FILES ${PROJECT_OTHER_FILES})
+source_group("UI Files" FILES ${PROJECT_UI_FILES})
 #===============================================================================
-# Translations
+# Resources
 #===============================================================================
-set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake")
-set(LXQT_CMAKE_MODULES_DIR "${CMAKE_MODULE_PATH}/LXQTBuildTools")
+include(Config.cmake)
+include(QtAppResources)
+#===============================================================================
+# Application executable
+#===============================================================================
+set(PROJECT_ALL_FILES
+    ${PROJECT_DESKTOP_FILES}
+    ${PROJECT_RESOURCES}
+    ${PROJECT_SOURCES}
+    ${PROJECT_OTHER_FILES}
+    ${PROJECT_QM_FILES}
+    ${PROJECT_TRANSLATION_SOURCES}
+    ${PROJECT_UI_FILES}
+)
+if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
+    qt_add_executable(${PROJECT_NAME} MANUAL_FINALIZATION ${PROJECT_ALL_FILES})
+else()
+    add_executable(${PROJECT_NAME} ${PROJECT_ALL_FILES})
+endif()
+target_link_libraries(${PROJECT_NAME} PRIVATE
+    Qt::Widgets
+)
+set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_ID}")
 
-include(LXQTBuildTools/LXQtTranslateDesktop)
-include(LXQTBuildTools/LXQtTranslateTs)
-
-lxqt_translate_ts(QM_FILES
-    UPDATE_TRANSLATIONS ${UPDATE_TRANSLATIONS}
-    SOURCES ${SOURCE_FILES}
-    TRANSLATION_DIR "resources/translations"
-    INSTALL_DIR ${CMAKE_INSTALL_DATADIR}/${CMAKE_PROJECT_NAME}/translations
+target_compile_definitions(${PROJECT_NAME} PRIVATE
+    PROJECT_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/${PROJECT_ID}"
 )
-lxqt_translate_desktop(DESKTOP_FILE
-    SOURCES ${DESKTOP_FILE_IN}
-    TRANSLATION_DIR "resources/translations"
-    USE_YAML
-)
-qt5_wrap_ui(UI_SOURCE ${UI_FILES})
-set_property(SOURCE ${UI_SOURCE} PROPERTY SKIP_AUTOMOC ON)
 #===============================================================================
-# Executable
+# Install application
 #===============================================================================
-#if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-#    qt_add_executable(${CMAKE_PROJECT_NAME} MANUAL_FINALIZATION
-#       ${SOURCE_FILES}
-#       ${QM_FILES}
-#       ${DESKTOP_FILE}
-#   )
-#else()
-    add_executable(${CMAKE_PROJECT_NAME}
-        ${SOURCE_FILES}
-        ${QM_FILES}
-        ${DESKTOP_FILE}
-    )
-#endif()
-
-target_compile_definitions(${CMAKE_PROJECT_NAME}
-    PRIVATE
-        SDDM_CONF_VERSION="${CMAKE_PROJECT_VERSION}"
-        SDDM_DATA_DIR="${CMAKE_INSTALL_PREFIX}/share/${CMAKE_PROJECT_NAME}"
-)
-
-target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-
-#if(QT_VERSION_MAJOR EQUAL 6)
-#    qt_finalize_executable(${CMAKE_PROJECT_NAME})
-#endif()
-#===============================================================================
-# Install
-#===============================================================================
-install(TARGETS ${CMAKE_PROJECT_NAME}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-)
-install(FILES ${DESKTOP_FILE}
-    DESTINATION ${CMAKE_INSTALL_DATADIR}/applications/
-)
-install(FILES resources/${APPSTREAM_ID}.appdata.xml
-    DESTINATION ${CMAKE_INSTALL_DATADIR}/metainfo
-)
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
 #===============================================================================
 # Project information
 #===============================================================================
 message(STATUS "
-Project name:                     ${CMAKE_PROJECT_NAME}
-Version:                          ${CMAKE_PROJECT_VERSION}
+Project name:                     ${PROJECT_NAME}
+Version:                          ${PROJECT_VERSION}
+Qt version:                       ${QT_VERSION}
 Build type:                       ${CMAKE_BUILD_TYPE}
 Install prefix:                   ${CMAKE_INSTALL_PREFIX}
-Update translations before build: ${UPDATE_TRANSLATIONS}
+Update translations before build: ${PROJECT_TRANSLATIONS_UPDATE}
 
-Qt version:                       ${Qt5Core_VERSION_STRING}
-
-Compiler CXX debug flags:         ${CMAKE_CXX_FLAGS_DEBUG}
-Compiler CXX release flags:       ${CMAKE_CXX_FLAGS_RELEASE}
-Compiler CXX min size flags:      ${CMAKE_CXX_FLAGS_MINSIZEREL}
+CXX Debug flags:                  ${CMAKE_CXX_FLAGS_DEBUG}
+CXX Release flags:                ${CMAKE_CXX_FLAGS_RELEASE}
+CXX MinSize flags:                ${CMAKE_CXX_FLAGS_MINSIZEREL}
+CXX RelWithDebInfo flags:         ${CMAKE_CXX_FLAGS_RELWITHDEBINFO}
 ")
+
+if(QT_VERSION_MAJOR EQUAL 6)
+    qt_finalize_executable(${PROJECT_NAME})
+endif()

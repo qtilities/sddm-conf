@@ -13,12 +13,20 @@
 #include <QProcess>
 #include <QTextStream>
 
-MainDialog::MainDialog(QWidget* parent)
+MainDialog::MainDialog(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::MainDialog)
     , previewProcess_(new QProcess(this))
     , previewButton_(new QPushButton(QIcon::fromTheme("window-close"), QString(), nullptr))
 {
+#define ENABLE_BUTTONS \
+    reset->setEnabled(true); \
+    save->setEnabled(true);
+
+#define DISABLE_BUTTONS \
+    reset->setEnabled(false); \
+    save->setEnabled(false);
+
     ui->setupUi(this);
     setWindowTitle(tr("SDDM Configuration Editor"));
 
@@ -31,38 +39,32 @@ MainDialog::MainDialog(QWidget* parent)
     previewButton_->move(0, 0);
     previewButton_->hide();
 
-    Settings* settings = &static_cast<Application*>(qApp)->settings();
-    QPushButton* reset = ui->buttonBox->button(QDialogButtonBox::Reset);
+    Application *theApp = static_cast<Application *>(qApp);
+    Settings *settings = &theApp->settings();
+    QPushButton *reset = ui->buttonBox->button(QDialogButtonBox::Reset);
     QPushButton* save = ui->buttonBox->button(QDialogButtonBox::Save);
 
-    reset->setEnabled(false);
-    save->setEnabled(false);
+    DISABLE_BUTTONS;
 
     connect(qApp, &QCoreApplication::aboutToQuit, previewButton_, &QObject::deleteLater);
-    connect(qApp, &QCoreApplication::aboutToQuit, this, [=] {
+    connect(qApp, &QCoreApplication::aboutToQuit, this, [this] {
         if (previewProcess_->state() == QProcess::Running)
             previewProcess_->terminate();
         previewProcess_->deleteLater();
     });
-    connect(reset, &QPushButton::clicked, this, [=] {
+    connect(reset, &QPushButton::clicked, this, [this, settings, reset, save] {
         settings->load();
         loadSettings();
-        reset->setEnabled(false);
-        save->setEnabled(false);
+        DISABLE_BUTTONS;
     });
     connect(ui->buttonBox, &QDialogButtonBox::rejected, this, &QDialog::reject);
-    connect(ui->buttonBox, &QDialogButtonBox::accepted, this, [=] {
+    connect(ui->buttonBox, &QDialogButtonBox::accepted, this, [this, settings, reset, save] {
         settings->save();
         loadFile();
-        reset->setEnabled(false);
-        save->setEnabled(false);
+        DISABLE_BUTTONS;
     });
-    connect(ui->pbnAbout, &QPushButton::clicked, this, [=] {
-        QMessageBox::about(this, tr("SDDM Conf v" SDDM_CONF_VERSION),
-                           tr("Copyright (C) 2022\n"
-                              "Andrea Zanellato <redtid3@gmail.com>"));
-    });
-    connect(ui->pbnThemePreview, &QPushButton::clicked, this, [=] {
+    connect(ui->pbnAbout, &QPushButton::clicked, theApp, &Application::about);
+    connect(ui->pbnThemePreview, &QPushButton::clicked, this, [this, settings] {
         QString currentTheme = settings->currentTheme();
         QString path = QStringLiteral("%1/%2/").arg(settings->themeDir(), currentTheme);
         QStringList args;
@@ -74,52 +76,49 @@ MainDialog::MainDialog(QWidget* parent)
         previewProcess_->start("sddm-greeter", args);
         hide();
     });
-    connect(previewButton_, &QPushButton::clicked, this, [=] {
+    connect(previewButton_, &QPushButton::clicked, this, [this] {
         if (previewProcess_->state() == QProcess::Running)
             previewProcess_->terminate();
         previewButton_->hide();
         show();
     });
 
-#define CONNECT_FILEOPEN(NAME)                                 \
-    connect(ui->tbn##NAME, &QToolButton::clicked, this, [=] {  \
-        QString fileName = QFileDialog::getOpenFileName(       \
-            this, tr("Choose a file"), ui->txt##NAME->text()); \
-        if (!fileName.isEmpty())                               \
-            ui->txt##NAME->setText(fileName);                  \
+#define CONNECT_FILEOPEN(NAME) \
+    connect(ui->tbn##NAME, &QToolButton::clicked, this, [this] { \
+        QString fileName \
+            = QFileDialog::getOpenFileName(this, tr("Choose a file"), ui->txt##NAME->text()); \
+        if (!fileName.isEmpty()) \
+            ui->txt##NAME->setText(fileName); \
     });
-#define CONNECT_DIROPEN(NAME)                                              \
-    connect(ui->tbn##NAME, &QToolButton::clicked, this, [=] {              \
-        QString dirName = QFileDialog::getExistingDirectory(               \
-            this, tr("Choose a directory"), ui->txt##NAME->text(),         \
+#define CONNECT_DIROPEN(NAME) \
+    connect(ui->tbn##NAME, &QToolButton::clicked, this, [this] { \
+        QString dirName = QFileDialog::getExistingDirectory( \
+            this, tr("Choose a directory"), ui->txt##NAME->text(), \
             QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks); \
-        if (!dirName.isEmpty())                                            \
-            ui->txt##NAME->setText(dirName);                               \
+        if (!dirName.isEmpty()) \
+            ui->txt##NAME->setText(dirName); \
     });
-#define RESET_BUTTONS        \
-    reset->setEnabled(true); \
-    save->setEnabled(true);
-
-#define CONNECT_CHECKBOX(NAME)                              \
-    connect(ui->chk##NAME, &QCheckBox::toggled, this, [=] { \
-        settings->set##NAME(ui->chk##NAME->isChecked());    \
-        RESET_BUTTONS;                                      \
+#define CONNECT_CHECKBOX(NAME) \
+    connect(ui->chk##NAME, &QCheckBox::toggled, this, [this, settings, reset, save] { \
+        settings->set##NAME(ui->chk##NAME->isChecked()); \
+        ENABLE_BUTTONS; \
     });
-#define CONNECT_COMBOBOX(NAME)                                         \
-    connect(ui->cbx##NAME, &QComboBox::currentTextChanged, this, [=] { \
-        settings->set##NAME(ui->cbx##NAME->currentText());             \
-        RESET_BUTTONS;                                                 \
+#define CONNECT_COMBOBOX(NAME) \
+    connect(ui->cbx##NAME, &QComboBox::currentTextChanged, this, [this, settings, reset, save] { \
+        settings->set##NAME(ui->cbx##NAME->currentText()); \
+        ENABLE_BUTTONS; \
     });
-#define CONNECT_LINEEDIT(NAME)                                  \
-    connect(ui->txt##NAME, &QLineEdit::textChanged, this, [=] { \
-        settings->set##NAME(ui->txt##NAME->text());             \
-        RESET_BUTTONS;                                          \
+#define CONNECT_LINEEDIT(NAME) \
+    connect(ui->txt##NAME, &QLineEdit::textChanged, this, [this, settings, reset, save] { \
+        settings->set##NAME(ui->txt##NAME->text()); \
+        ENABLE_BUTTONS; \
     });
-#define CONNECT_SPINBOX(NAME)                                                       \
-    connect(ui->sbx##NAME, QOverload<int>::of(&QSpinBox::valueChanged), this, [=] { \
-        settings->set##NAME(ui->sbx##NAME->value());                                \
-        RESET_BUTTONS;                                                              \
-    });
+#define CONNECT_SPINBOX(NAME) \
+    connect(ui->sbx##NAME, QOverload<int>::of(&QSpinBox::valueChanged), this, \
+            [this, settings, reset, save] { \
+                settings->set##NAME(ui->sbx##NAME->value()); \
+                ENABLE_BUTTONS; \
+            });
 
     CONNECT_DIROPEN(FacesDir);
     CONNECT_DIROPEN(ThemeDir);
@@ -183,7 +182,8 @@ MainDialog::MainDialog(QWidget* parent)
 #undef CONNECT_LINEEDIT
 #undef CONNECT_COMBOBOX
 #undef CONNECT_CHECKBOX
-#undef RESET_BUTTONS
+#undef DISABLE_BUTTONS
+#undef ENABLE_BUTTONS
 }
 
 MainDialog::~MainDialog()

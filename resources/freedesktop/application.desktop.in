@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Categories=@PROJECT_CATEGORIES@;
+Exec=@PROJECT_ID@
+Icon=@PROJECT_ICON_FILE_NAME@
+StartupNotify=false
+Terminal=false
+
