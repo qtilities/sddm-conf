@@ -32,8 +32,8 @@ set(PROJECT_SOURCES
     src/settings.cpp
 )
 set(PROJECT_UI_FILES
-    src/dialogabout.ui
     src/maindialog.ui
+    src/dialogabout.ui
 )
 set(PROJECT_OTHER_FILES
     .github/workflows/build.yml
@@ -78,7 +78,7 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE
 #===============================================================================
 # Install application
 #===============================================================================
-install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR})
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}")
 #===============================================================================
 # Project information
 #===============================================================================
