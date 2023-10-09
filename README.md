@@ -1,5 +1,7 @@
 # sddm-conf
 
+[![CI]](https://github.com/qtilities/sddm-conf/actions/workflows/build.yml)
+
 ## Overview
 
 Configuration editor for [SDDM] similar to [sddm-config-editor],
@@ -18,7 +20,7 @@ Runtime:
 Build:
 
 - CMake
-- Qt5 Linguist Tools
+- Qt Linguist Tools
 - [Qtilitools] CMake modules
 - Git (optional, to pull latest VCS checkouts)
 
@@ -45,11 +47,12 @@ For contributing translations the [LXQt Weblate] platform can be used.
 [![Translation status]](https://translate.lxqt-project.org/widgets/qtilities/)
 
 
-[SDDM]:               https://github.com/sddm/sddm/
-[sddm-config-editor]: https://github.com/lxqt/sddm-config-editor/
+[alternative]:        https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
+[CI]:                 https://github.com/qtilities/sddm-conf/actions/workflows/build.yml/badge.svg
+[LXQt Weblate]:       https://translate.lxqt-project.org/projects/qtilities/sddm-conf/
+[Packaging status]:   https://repology.org/badge/vertical-allrepos/sddm-conf.svg
 [polkit]:             https://gitlab.freedesktop.org/polkit/polkit/
 [Qtilitools]:         https://github.com/qtilities/qtilitools/
-[valid alternative]:  https://wiki.archlinux.org/title/CMake_package_guidelines#Fixing_the_automatic_optimization_flag_override
-[Packaging status]:   https://repology.org/badge/vertical-allrepos/sddm-conf.svg
-[LXQt Weblate]:       https://translate.lxqt-project.org/projects/qtilities/sddm-conf/
+[SDDM]:               https://github.com/sddm/sddm/
+[sddm-config-editor]: https://github.com/lxqt/sddm-config-editor/
 [Translation status]: https://translate.lxqt-project.org/widgets/qtilities/-/sddm-conf/multi-auto.svg
