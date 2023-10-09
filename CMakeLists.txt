@@ -1,16 +1,17 @@
 cmake_minimum_required(VERSION 3.15)
-project(SDDM-Conf
+project(SddmConf
     VERSION 0.2.0
     LANGUAGES CXX
 )
-option(PROJECT_TRANSLATIONS_UPDATE "Update source translations [default: OFF]" OFF)
-
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 #===============================================================================
 # Qt
 #===============================================================================
+option(PROJECT_TRANSLATIONS_UPDATE "Update source translations [default: OFF]" OFF)
+set(PROJECT_TRANSLATION_TEST_ENABLED 0 CACHE STRING "Whether to enable translation testing [default: 0]")
+set(PROJECT_TRANSLATION_TEST "it" CACHE STRING "Country code of language to test in IDE [default: it]")
 set(PROJECT_QT_VERSION 5 CACHE STRING "Qt version to use [default: 5]")
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
@@ -43,8 +44,9 @@ set(PROJECT_OTHER_FILES
     .gitignore
     README.md
 )
-source_group("Other Files" FILES ${PROJECT_OTHER_FILES})
-source_group("UI Files" FILES ${PROJECT_UI_FILES})
+source_group("Sources" FILES ${PROJECT_SOURCES})
+source_group("Misc" FILES ${PROJECT_OTHER_FILES})
+source_group("UI" FILES ${PROJECT_UI_FILES})
 #===============================================================================
 # Resources
 #===============================================================================
@@ -67,6 +69,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 else()
     add_executable(${PROJECT_NAME} ${PROJECT_ALL_FILES})
 endif()
+
 target_link_libraries(${PROJECT_NAME} PRIVATE
     Qt::Widgets
 )
@@ -74,6 +77,8 @@ set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "${PROJECT_ID}")
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE
     PROJECT_DATA_DIR="${CMAKE_INSTALL_FULL_DATADIR}/${PROJECT_ID}"
+    PROJECT_TRANSLATION_TEST="${PROJECT_TRANSLATION_TEST}"
+    PROJECT_TRANSLATION_TEST_ENABLED=${PROJECT_TRANSLATION_TEST_ENABLED}
 )
 #===============================================================================
 # Install application
@@ -89,11 +94,6 @@ Qt version:                       ${QT_VERSION}
 Build type:                       ${CMAKE_BUILD_TYPE}
 Install prefix:                   ${CMAKE_INSTALL_PREFIX}
 Update translations before build: ${PROJECT_TRANSLATIONS_UPDATE}
-
-CXX Debug flags:                  ${CMAKE_CXX_FLAGS_DEBUG}
-CXX Release flags:                ${CMAKE_CXX_FLAGS_RELEASE}
-CXX MinSize flags:                ${CMAKE_CXX_FLAGS_MINSIZEREL}
-CXX RelWithDebInfo flags:         ${CMAKE_CXX_FLAGS_RELWITHDEBINFO}
 ")
 
 if(QT_VERSION_MAJOR EQUAL 6)
