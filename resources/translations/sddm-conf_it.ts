@@ -237,22 +237,22 @@ se non esplicitamente attivati con EnableAvatars</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="31"/>
+        <location filename="../../src/maindialog.cpp" line="50"/>
         <source>SDDM Configuration Editor</source>
         <translation>Editor di configurazione di SDDM</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="74"/>
+        <location filename="../../src/maindialog.cpp" line="93"/>
         <source>Close %1 preview</source>
         <translation>Chiudi anteprima %1</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="89"/>
+        <location filename="../../src/maindialog.cpp" line="108"/>
         <source>Choose a file</source>
         <translation>Scegli un file</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="96"/>
+        <location filename="../../src/maindialog.cpp" line="115"/>
         <source>Choose a directory</source>
         <translation>Scegli una directory</translation>
     </message>

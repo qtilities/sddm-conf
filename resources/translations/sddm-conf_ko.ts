@@ -236,22 +236,22 @@ unless explicitly enabled with EnableAvatars</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="31"/>
+        <location filename="../../src/maindialog.cpp" line="50"/>
         <source>SDDM Configuration Editor</source>
         <translation>SDDM 구성 편집기</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="74"/>
+        <location filename="../../src/maindialog.cpp" line="93"/>
         <source>Close %1 preview</source>
         <translation>%1 미리보기 닫기</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="89"/>
+        <location filename="../../src/maindialog.cpp" line="108"/>
         <source>Choose a file</source>
         <translation>파일 선택하기</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="96"/>
+        <location filename="../../src/maindialog.cpp" line="115"/>
         <source>Choose a directory</source>
         <translation>디렉터리 선택하기</translation>
     </message>

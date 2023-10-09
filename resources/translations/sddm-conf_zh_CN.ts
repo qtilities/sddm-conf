@@ -236,22 +236,22 @@ unless explicitly enabled with EnableAvatars</source>
         <translation>关于</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="31"/>
+        <location filename="../../src/maindialog.cpp" line="50"/>
         <source>SDDM Configuration Editor</source>
         <translation>SDDM 设置工具</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="74"/>
+        <location filename="../../src/maindialog.cpp" line="93"/>
         <source>Close %1 preview</source>
         <translation>关闭%1预览</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="89"/>
+        <location filename="../../src/maindialog.cpp" line="108"/>
         <source>Choose a file</source>
         <translation>选择文件</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="96"/>
+        <location filename="../../src/maindialog.cpp" line="115"/>
         <source>Choose a directory</source>
         <translation>选择目录</translation>
     </message>

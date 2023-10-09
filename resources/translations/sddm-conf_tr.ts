@@ -236,22 +236,22 @@ hangi avatarların devre dışı bırakıldığı</translation>
         <translation>Hakkında</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="31"/>
+        <location filename="../../src/maindialog.cpp" line="50"/>
         <source>SDDM Configuration Editor</source>
         <translation>SDDM Ayar Düzenleyicisi</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="74"/>
+        <location filename="../../src/maindialog.cpp" line="93"/>
         <source>Close %1 preview</source>
         <translation>%1 önizlemesini kapat</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="89"/>
+        <location filename="../../src/maindialog.cpp" line="108"/>
         <source>Choose a file</source>
         <translation>Bir dosya seçin</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="96"/>
+        <location filename="../../src/maindialog.cpp" line="115"/>
         <source>Choose a directory</source>
         <translation>Bir dizin seçin</translation>
     </message>

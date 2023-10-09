@@ -231,7 +231,7 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
         <translation>Tiedosto</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="31"/>
+        <location filename="../../src/maindialog.cpp" line="50"/>
         <source>SDDM Configuration Editor</source>
         <translation>SDDM:n asetusohjelma</translation>
     </message>
@@ -241,17 +241,17 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
         <translation>Tietoja</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="89"/>
+        <location filename="../../src/maindialog.cpp" line="108"/>
         <source>Choose a file</source>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="96"/>
+        <location filename="../../src/maindialog.cpp" line="115"/>
         <source>Choose a directory</source>
         <translation>Valitse hakemisto</translation>
     </message>
     <message>
-        <location filename="../../src/maindialog.cpp" line="74"/>
+        <location filename="../../src/maindialog.cpp" line="93"/>
         <source>Close %1 preview</source>
         <translation>Sulje esikatselu &quot;%1&quot;</translation>
     </message>
