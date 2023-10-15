@@ -13,7 +13,7 @@ but written in C++.
 
 Runtime:
 
-- Qt5 base
+- Qt5/6 base
 - SDDM
 - [polkit] (to save the settings)
 
@@ -26,7 +26,7 @@ Build:
 
 ## Build
 
-`CMAKE_BUILD_TYPE` is usually set to `Release`, though `None` might be a [valid alternative].<br>
+`CMAKE_BUILD_TYPE` is usually set to `Release`, though `None` might be a valid [alternative].<br>
 `CMAKE_INSTALL_PREFIX` has to be set to `/usr` on most operating systems.<br>
 Using `sudo make install` is discouraged, instead use the system package manager where possible.
 
