@@ -120,7 +120,7 @@ außer explizit aktiviert mit EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="355"/>
         <source>Comma-separated list of shells</source>
-        <translation type="unfinished"></translation>
+        <translation>Komma-getrennte Liste von Shells</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="365"/>
@@ -183,7 +183,7 @@ außer explizit aktiviert mit EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
         <source>The lowest virtual terminal number that will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>Die niedrigste virtuelle Terminalnummer, die verwendet werden soll</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="669"/>
@@ -233,7 +233,7 @@ außer explizit aktiviert mit EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="50"/>
@@ -243,17 +243,17 @@ außer explizit aktiviert mit EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.cpp" line="93"/>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau %1 schließen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="108"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Datei auswählen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="115"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Verzeichnis auswählen</translation>
     </message>
 </context>
 <context>
@@ -261,42 +261,42 @@ außer explizit aktiviert mit EnableAvatars</translation>
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Danke</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
         <source>qrc:/thanks.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/thanks.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>Lizenz</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>
         <source>qrc:/license.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/license.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Autor</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über</translation>
     </message>
 </context>
 </TS>

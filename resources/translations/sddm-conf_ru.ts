@@ -43,7 +43,7 @@ NOTE: Currently ignored if autologin is enabled.</source>
     <message>
         <location filename="../../src/maindialog.ui" line="172"/>
         <source>Initial NumLock state. Can be on, off or none.</source>
-        <translation>Начальное состояние NumLock. Может быть включен, выключен или ничего.</translation>
+        <translation>Начальное состояние NumLock. Может быть включён, отключён или нет.</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="179"/>
