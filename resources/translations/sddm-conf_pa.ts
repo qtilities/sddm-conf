@@ -6,12 +6,12 @@
     <message>
         <location filename="../../src/maindialog.ui" line="40"/>
         <source>Autologin</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਪਣੇ-ਆਪ ਲਾਗਇਨ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="61"/>
         <source>Username for autologin session</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਪਣੇ-ਆਪ ਲਾਗਇਨ ਸ਼ੈਸ਼ਨ ਲਈ ਵਰਤੋਂਕਾਰ-ਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="71"/>
@@ -21,17 +21,17 @@
     <message>
         <location filename="../../src/maindialog.ui" line="84"/>
         <source>Name of session file for autologin session (if empty try last logged in)</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਪਣੇ-ਆਪ ਲਾਗਇਨ ਸ਼ੈਸ਼ਨ ਲਈ ਸ਼ੈਸ਼ਨ ਫਾਇਲ ਦਾ ਨਾਂ (ਜੇ ਖਾਲੀ ਹੈ ਤਾਂ ਆਖਰੀ ਲਾਗਇਨ)</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="108"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਮ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੁੜ-ਚਾਲੂ ਕਮਾਂਡ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
@@ -47,22 +47,22 @@ NOTE: Currently ignored if autologin is enabled.</source>
     <message>
         <location filename="../../src/maindialog.ui" line="179"/>
         <source>Input method module</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਨਪੁੱਟ ਢੰਗ ਮੋਡੀਊਲ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="186"/>
         <source>Halt command</source>
-        <translation type="unfinished"></translation>
+        <translation>ਹਾਲਟ ਕਮਾਂਡ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
         <source>Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥੀਮ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="250"/>
         <source>Theme directory path</source>
-        <translation type="unfinished"></translation>
+        <translation>ਥੀਮ ਡਾਇਰੈਕਟਰੀ ਪਾਥ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="257"/>
@@ -73,17 +73,17 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="265"/>
         <source>Current theme name</source>
-        <translation type="unfinished"></translation>
+        <translation>ਮੌਜੂਦਾ ਥੀਮ ਦਾ ਨਾਂ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
         <source>Cursor theme used in the greeter</source>
-        <translation type="unfinished"></translation>
+        <translation>ਗਰੀਟਰ ਵਿੱਚ ਵਰਤਣ ਲਈ ਕਰਸਰ ਥੀਮ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="279"/>
         <source>Global directory for user avatars</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਰਤੋਂਕਾਰ ਅਵਤਾਰ ਲਈ ਗਲੋਬਲ ਡਾਇਰੈਕਟਰੀ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="289"/>
@@ -93,7 +93,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="302"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>ਝਲਕ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="309"/>
@@ -108,7 +108,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="324"/>
         <source>Users</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਰਤੋਂਕਾਰ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="345"/>
@@ -138,17 +138,17 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="409"/>
         <source>Remember the session of the last successfully logged in user</source>
-        <translation type="unfinished"></translation>
+        <translation>ਪਿਛਲੀ ਵਾਰ ਕਾਮਯਾਬੀ ਨਾਲ ਲਾਗਇਨ ਕੀਤੇ ਵਰਤੋਂਕਾਰ ਦੇ ਸ਼ੈਸ਼ਨ ਨੂੰ ਯਾਦ ਰੱਖੋ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="416"/>
         <source>Remember the last successfully logged in user</source>
-        <translation type="unfinished"></translation>
+        <translation>ਆਖਰੀ ਵਾਰੀ ਕਾਮਯਾਬੀ ਨਾਲ ਲਾਗਇਨ ਕੀਤੇ ਵਰਤੋਂਕਾਰ ਨੂੰ ਯਾਦ ਰੱਖੋ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="424"/>
         <source>Wayland</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵੇਲੈਂਡ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="445"/>
@@ -166,7 +166,7 @@ unless explicitly enabled with EnableAvatars</source>
         <location filename="../../src/maindialog.ui" line="470"/>
         <location filename="../../src/maindialog.ui" line="740"/>
         <source>Path to the user session log file</source>
-        <translation type="unfinished"></translation>
+        <translation>ਵਰਤੋਂਕਾਰ ਸ਼ੈਸ਼ਨ ਲਾਗ ਫਾਇਲ ਲਈ ਪਾਥ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="488"/>
@@ -176,7 +176,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="520"/>
         <source>X11</source>
-        <translation type="unfinished"></translation>
+        <translation>X11</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="572"/>
@@ -226,32 +226,32 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/maindialog.ui" line="759"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫਾਇਲ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="31"/>
         <source>SDDM Configuration Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>SDDM ਸੰਰਚਨਾ ਐਡੀਟਰ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="778"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਬਾਰੇ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="89"/>
         <source>Choose a file</source>
-        <translation type="unfinished"></translation>
+        <translation>ਫਾਇਲ ਚੁਣੋ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="96"/>
         <source>Choose a directory</source>
-        <translation type="unfinished"></translation>
+        <translation>ਡਾਇਰੈਕਟਰੀ ਚੁਣੋ</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.cpp" line="74"/>
         <source>Close %1 preview</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ਝਲਕ ਬੰਦ ਕਰੋ</translation>
     </message>
 </context>
 <context>
@@ -259,17 +259,17 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>ਜਾਣਕਾਰੀ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
         <source>qrc:/about.html</source>
-        <translation type="unfinished"></translation>
+        <translation>qrc:/about.html</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="62"/>
         <source>Thanks</source>
-        <translation type="unfinished"></translation>
+        <translation>ਧੰਨਵਾਦ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="81"/>
@@ -289,12 +289,12 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/dialogabout.cpp" line="55"/>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲੇਖਕ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>ਇਸ ਬਾਰੇ</translation>
     </message>
 </context>
 </TS>
