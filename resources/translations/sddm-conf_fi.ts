@@ -261,7 +261,7 @@ jos ei erikseen määritetty EnableAvatars-asetuksella</translation>
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation>Tietoja</translation>
+        <translation>Tiedot</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
