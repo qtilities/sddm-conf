@@ -31,7 +31,7 @@
     <message>
         <location filename="../../src/maindialog.ui" line="135"/>
         <source>Reboot command</source>
-        <translation>Comando Reiniciar</translation>
+        <translation>Comando de reiniciar</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="142"/>
@@ -53,7 +53,7 @@ NOTA: esta propriedade é ignorada se a sessão for iniciada automaticamente.</t
     <message>
         <location filename="../../src/maindialog.ui" line="186"/>
         <source>Halt command</source>
-        <translation>Comando Suspender</translation>
+        <translation>Comando de paragem</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
@@ -296,7 +296,7 @@ a menos que explicitamente definidos em &apos;EnableAvatars&apos;</translation>
     <message>
         <location filename="../../src/dialogabout.cpp" line="60"/>
         <source>About</source>
-        <translation>Sobre</translation>
+        <translation>Acerca</translation>
     </message>
 </context>
 </TS>
