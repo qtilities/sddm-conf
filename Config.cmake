@@ -4,7 +4,7 @@
 # Essential, non translatable application information (except DESCRIPTION).
 # Translatable strings are passed via code.
 #===============================================================================
-list(APPEND PROJECT_CATEGORIES "System;Settings,Qt") # Freedesktop menu categories
+list(APPEND PROJECT_CATEGORIES "Settings;Qt") # Freedesktop menu categories
 list(APPEND PROJECT_KEYWORDS   "sddm;settings;configurator")
 set(PROJECT_AUTHOR_NAME        "Andrea Zanellato")
 set(PROJECT_AUTHOR_EMAIL       "redtid3@gmail.com") # Used also for organization email
