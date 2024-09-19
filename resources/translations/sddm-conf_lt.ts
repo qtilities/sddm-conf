@@ -174,7 +174,7 @@ nebent aiškiai įjungta naudojant EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="488"/>
         <source>Directory containing available Wayland sessions</source>
-        <translation>Katalogas su prieinamais Wayland seansais</translation>
+        <translation>Katalogas su prieinamais „Wayland“ seansais</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="520"/>

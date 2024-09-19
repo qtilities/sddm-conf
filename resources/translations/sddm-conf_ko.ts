@@ -156,7 +156,7 @@ unless explicitly enabled with EnableAvatars</source>
         <location filename="../../src/maindialog.ui" line="445"/>
         <location filename="../../src/maindialog.ui" line="565"/>
         <source>Enable Qt&apos;s automatic high-DPI scaling</source>
-        <translation>Qt의 높은 DPI 자동 스케일링 활성화</translation>
+        <translation>Qt의 자동 고해상도 크기조정 활성화</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="452"/>
