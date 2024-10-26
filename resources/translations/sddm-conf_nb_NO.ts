@@ -53,7 +53,7 @@ Merk: Ses bort fra hvis automatisk innlogging er påskrudd.</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="186"/>
         <source>Halt command</source>
-        <translation>Hold kommando</translation>
+        <translation>Stopp-kommando</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
@@ -80,7 +80,7 @@ med mindre de skrus på spesifikt med EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
         <source>Cursor theme used in the greeter</source>
-        <translation>Pekerdrakt bruk i velkomstvindu</translation>
+        <translation>Pekertema brukt på innloggingsskjermen</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="279"/>
@@ -140,7 +140,7 @@ med mindre de skrus på spesifikt med EnableAvatars</translation>
     <message>
         <location filename="../../src/maindialog.ui" line="409"/>
         <source>Remember the session of the last successfully logged in user</source>
-        <translation>Husk normal økt for sist innloggede bruker</translation>
+        <translation>Husk økten til den sist innloggede brukeren</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="416"/>
@@ -261,7 +261,7 @@ med mindre de skrus på spesifikt med EnableAvatars</translation>
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Informasjon</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
