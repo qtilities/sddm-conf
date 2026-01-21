@@ -279,7 +279,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/dialogabout.ui" line="100"/>
         <source>License</source>
-        <translation type="unfinished"></translation>
+        <translation>ਲਸੰਸ</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="116"/>

@@ -58,24 +58,24 @@ Märkus: Kui automaatne sisselogimine on kasutusel, siis see seadistus jääb ka
     <message>
         <location filename="../../src/maindialog.ui" line="207"/>
         <source>Theme</source>
-        <translation>Teema</translation>
+        <translation>Kujundus</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="250"/>
         <source>Theme directory path</source>
-        <translation>Teemade kausta asukoht</translation>
+        <translation>Kujunduste kausta asukoht</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="257"/>
         <source>above which avatars are disabled
 unless explicitly enabled with EnableAvatars</source>
         <translation>mille puhul tunnuspildid jäävad kasutamata,
-välja arvatud olukord, kui EnableAvatars nad üheselt kasutusele võtab</translation>
+välja arvatud olukord, kui „EnableAvatars“ seadistus nad üheselt kasutusele võtab</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="265"/>
         <source>Current theme name</source>
-        <translation>Praeguse teema nimi</translation>
+        <translation>Praeguse kujunduse nimi</translation>
     </message>
     <message>
         <location filename="../../src/maindialog.ui" line="272"/>
