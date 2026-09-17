@@ -261,7 +261,7 @@ unless explicitly enabled with EnableAvatars</source>
     <message>
         <location filename="../../src/dialogabout.ui" line="27"/>
         <source>Information</source>
-        <translation>Інформація</translation>
+        <translation>Відомості</translation>
     </message>
     <message>
         <location filename="../../src/dialogabout.ui" line="43"/>
